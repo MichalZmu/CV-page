@@ -283,7 +283,10 @@ hr.style-three {
 ol.c {
     list-style-type: decimal;
     list-style-position:inside;
+    text-align: center;
 }
+
+
 
 .imageHolder{
     width: 250px;
@@ -292,3 +295,4 @@ ol.c {
     margin-left: auto;
     margin-right: auto;
 }
+
