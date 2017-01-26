@@ -1,10 +1,6 @@
 body{
     background-color: #EDEEF0;
-}
-
-header, section{
     font-family: 'Open Sans', sans-serif;
-    
 }
 
 header {
@@ -34,18 +30,10 @@ section {
     margin-right: auto;
 }
 
-.smallIcons {
+.small-icons {
     margin-bottom: 20px;
 }
 
-.containerColor2 {
-  
-}
-
-.textCenter {
-    text-align: center;
-    
-}
 
 .titleImg {
     width: 100%;
@@ -284,6 +272,10 @@ ol.c {
     list-style-type: decimal;
     list-style-position:inside;
     text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 
