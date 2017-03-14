@@ -7,6 +7,38 @@ header {
     padding-bottom: 60px;
 }
 
+nav {
+    background-color: white !important;
+}
+
+.nav {
+    float: right;
+    text-decoration: none;
+    height: 50px;
+}
+
+.nav li {
+    float: left;
+    margin-left: 55px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    
+    
+}
+
+.nav a {
+    padding: 0px !important;   
+    display: block;
+    color: inherit;
+    
+   
+}
+
+.nav a:hover {
+    border-bottom: 2px solid black !important;
+    background-color: transparent !important;
+}
+
 img {
     display: block;
     margin: 0 auto;
