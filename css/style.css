@@ -118,7 +118,7 @@ hr.style-three {
         position: absolute;
         content: " ";
         width: 3px;
-        background-color: white;
+        background-color: #b5b5b5;
         left: 50%;
         margin-left: -1.5px;
     }
