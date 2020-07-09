@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="257476fc-622a-4919-a0c3-de2d7b51f056" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/buttonProject1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/buttonProject2.1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/buttonProject2Hover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/header-small-02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/mogo-page.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index-eng.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +58,7 @@
       <workItem from="1594221758965" duration="3637000" />
       <workItem from="1594232182557" duration="618000" />
       <workItem from="1594280829178" duration="6160000" />
-      <workItem from="1594292703214" duration="7882000" />
+      <workItem from="1594292703214" duration="8066000" />
     </task>
     <servers />
   </component>
