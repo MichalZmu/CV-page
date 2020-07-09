@@ -1,167 +1,300 @@
 <!DOCTYPE html>
-<html>
-  <head>
+<html lang="en">
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Michał koduje!</title>  
-    
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Michał koduje!</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+          integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="css/style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
-  </head>
+</head>
 <body>
-<nav>
-   <div class="container">
-      <ul class="nav">
-          <li class="active"><a href="index.html">PL</a></li>
-          <li><a href="index-eng.html">ENG</a></li>
-        </ul>
-
-   </div>
-</nav>
 <header>
-    <div class="container" id="mainBody">
-        <div class="row text-center" id="titleRow">
-                <img class="img-responsive" src="img/header-small-02.png" alt="main logo picture">
-                <h3 data-aos="zoom-in" data-aos-duration="3000">michalkoduje.pl</h3>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMain"
+                aria-controls="navbarMain" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMain">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="#profile">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#my-projects">My projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
         </div>
-    </div>
+    </nav>
 </header>
-
-<section class="white">
-    <div class="container">
-        <div class="row text-center">
-
-            <h1>Kim jestem?</h1>
-                <p>Jestem absolwentem studiów pierwszego stopnia w trakcie zdobywania tytułu magistra.</p>
-                <p>Posiadam podstawowe umiejętności z zakresu tworzenia stron internetowych z wykorzystaniem języka HTML5, kaskadowych arkuszy stylów oraz Bootstrapa. Dodatkowo cały czas zgłębiam wiedzę z zakresu JavaScriptu oraz jQuery.
-                </p>
+    <div class="container main-section">
+        <div class="row text-center" id="titleRow" data-aos="fade-up" data-aos-duration="1000">
+            <div class="col-12 col-lg-6 d-flex flex-column justify-content-center">
+                <div class="big-title-text text-xl-left">Hello,</div>
+                <div class="big-title-text">I am Michal</div>
+            </div>
+            <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+                <img src="img/this-is-me.jpg" class="main-photo" alt="photo">
+            </div>
         </div>
     </div>
-</section>   
-<section>
-    <div class="container">
+<section class="white" id="profile">
+    <div class="container" data-aos="fade-left" data-aos-duration="1000">
         <div class="row text-center">
-        <h1>Moja edukacja:</h1>
-            <ul class="timeline">
-                <li>
-                <div class="timeline-badge"><i class="glyphicon glyphicon-ok"></i></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h4 class="timeline-title">Uniwersytet Pedagogiczny w Krakowie </h4>
-                        <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 2013 - 2016</small></p>
-                    </div>
-                    <div class="timeline-body">
-                        <p>Studia licencjackie:</p>
-                        <p>Instytut Informatyki, Informatyka, 
-                        Specjalność: Social Media,</p>
-                    </div>
+            <div class="col">
+                <h1>Profile</h1>
+                <p>Inventive front-end developer with 4 months of
+                    commercial experience in Angular 8, JavaScript and
+                    TypeScripy with the willingness to continuously learn
+                    and master Angular 2+ and Back-end Development as
+                    well.</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="experience">
+    <div class="container" data-aos="fade-right" data-aos-duration="1000">
+        <div class="row text-center">
+            <div class="col">
+                <h1>Experience</h1>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-badge success"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Front-end Developer</h4>
+                                <p>Mistrally</p>
+                                <p><small class="text-muted">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-alarm"
+                                         fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                              d="M8 15A6 6 0 1 0 8 3a6 6 0 0 0 0 12zm0 1A7 7 0 1 0 8 2a7 7 0 0 0 0 14z"/>
+                                        <path fill-rule="evenodd"
+                                              d="M8 4.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.053.224l-1.5 3a.5.5 0 1 1-.894-.448L7.5 8.882V5a.5.5 0 0 1 .5-.5z"/>
+                                        <path d="M.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z"/>
+                                        <path fill-rule="evenodd"
+                                              d="M11.646 14.146a.5.5 0 0 1 .708 0l1 1a.5.5 0 0 1-.708.708l-1-1a.5.5 0 0 1 0-.708zm-7.292 0a.5.5 0 0 0-.708 0l-1 1a.5.5 0 0 0 .708.708l1-1a.5.5 0 0 0 0-.708zM5.5.5A.5.5 0 0 1 6 0h4a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5z"/>
+                                        <path d="M7 1h2v2H7V1z"/>
+                                    </svg>
+                                    02.2020 -
+                                    05.2020</small>
+                                </p>
+                            </div>
+                            <div class="timeline-body">
+                                <ul>
+                                    <li>Using Typescript with Angular to build web-presentation layer.</li>
+                                    <li>Creating layouts in HTML using Angular Material, Tippy.js and Bootstrap.</li>
+                                    <li>Implementing New API Endpoints.</li>
+                                    <li>Reactive programming with observable streams, using RxJS library.</li>
+                                    <li>Cooperation with marketing and graphic designers for front end consistency.</li>
+                                    <li>Managing project dependencies through NPM.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-badge"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Tool Analyst</h4>
+                                <p>Capgemini</p>
+                                <p><small class="text-muted">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-alarm"
+                                         fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                              d="M8 15A6 6 0 1 0 8 3a6 6 0 0 0 0 12zm0 1A7 7 0 1 0 8 2a7 7 0 0 0 0 14z"/>
+                                        <path fill-rule="evenodd"
+                                              d="M8 4.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.053.224l-1.5 3a.5.5 0 1 1-.894-.448L7.5 8.882V5a.5.5 0 0 1 .5-.5z"/>
+                                        <path d="M.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z"/>
+                                        <path fill-rule="evenodd"
+                                              d="M11.646 14.146a.5.5 0 0 1 .708 0l1 1a.5.5 0 0 1-.708.708l-1-1a.5.5 0 0 1 0-.708zm-7.292 0a.5.5 0 0 0-.708 0l-1 1a.5.5 0 0 0 .708.708l1-1a.5.5 0 0 0 0-.708zM5.5.5A.5.5 0 0 1 6 0h4a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5z"/>
+                                        <path d="M7 1h2v2H7V1z"/>
+                                    </svg>
+                                    09.2018 -
+                                    01.2020</small></p>
+                            </div>
+                            <div class="timeline-body">
+                                <ul>
+                                    <li> Configuration of connectors to ticketing tools (e.g. BMC Remedy,
+                                        Service Now, JIRA, Team Forge, Sharepoint, VVM, ALM)
+                                    </li>
+                                    <li>End user support for dashboarding tool</li>
+                                    <li>Software testing</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="white" id="education">
+    <div class="container" data-aos="fade-left" data-aos-duration="1000">
+        <div class="row text-center">
+            <div class="col">
+                <h1>Education:</h1>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-badge"></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4 class="timeline-title">Pedagogical University in Kraków</h4>
+                                <p><small class="text-muted">
+                                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-alarm"
+                                         fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                        <path fill-rule="evenodd"
+                                              d="M8 15A6 6 0 1 0 8 3a6 6 0 0 0 0 12zm0 1A7 7 0 1 0 8 2a7 7 0 0 0 0 14z"/>
+                                        <path fill-rule="evenodd"
+                                              d="M8 4.5a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-.053.224l-1.5 3a.5.5 0 1 1-.894-.448L7.5 8.882V5a.5.5 0 0 1 .5-.5z"/>
+                                        <path d="M.86 5.387A2.5 2.5 0 1 1 4.387 1.86 8.035 8.035 0 0 0 .86 5.387zM11.613 1.86a2.5 2.5 0 1 1 3.527 3.527 8.035 8.035 0 0 0-3.527-3.527z"/>
+                                        <path fill-rule="evenodd"
+                                              d="M11.646 14.146a.5.5 0 0 1 .708 0l1 1a.5.5 0 0 1-.708.708l-1-1a.5.5 0 0 1 0-.708zm-7.292 0a.5.5 0 0 0-.708 0l-1 1a.5.5 0 0 0 .708.708l1-1a.5.5 0 0 0 0-.708zM5.5.5A.5.5 0 0 1 6 0h4a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5z"/>
+                                        <path d="M7 1h2v2H7V1z"/>
+                                    </svg>
+                                    2013 - 2016</small></p>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Bachelor’s degree, Institute of Computer Science, Computer
+                                    Science, </p>
+                                <p>Type: Full-time studies</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="my-projects">
+    <div class="container" data-aos="fade-right" data-aos-duration="1000">
+        <div class="row text-center">
+            <div class="col">
+                <h1>My projects:</h1>
+            </div>
+            -
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <div class="imageHolder">
+                    <a href="https://github.com/MichalZmu/seat-and-beach-reservation">
+                        <img class="buttonProject" src="img/seach-and-beach.jpg" alt="project picture"></a>
                 </div>
-                </li>
-            </ul>
+            </div>
+            <div class="col-12 col-lg-8 d-flex flex-column align-items-center justify-content-center">
+                <p>This project was created to demonstrate a beach seat reservation system. Perfect at the time of
+                    coronavirus.</p>
+                <p>All the reservations are stored in the cloud database (MongoDB). For communications
+                    between database and application, I have used REST API (Node.js with Express and Mongoose). The
+                    application has been written in TypeScript with Angular 8.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-12 col-lg-4">
+                <div class="imageHolder">
+                    <a href="https://github.com/MichalZmu/kings-game">
+                        <img class="buttonProject" src="img/kings-game.jpg" alt="project picture"></a>
+                </div>
+            </div>
+            <div class="col-12 col-lg-8 d-flex flex-column justify-content-center">
+                <p>Simple game written in TypeScrupt with Angular 8.</p>
+            </div>
         </div>
     </div>
 </section>
-<section class="white">
-    <div class="container">
-        <div class="row text-center">
-            <h1>Moja kariera:</h1>
-            <ul class="timeline">
-                <li>
-                    <div class="timeline-badge"><i class="glyphicon glyphicon-ok"></i></div>
-                    <div class="timeline-panel">
-                        <div class="timeline-heading">
-                            <h4 class="timeline-title">Capgemini</h4>
-                            <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 07.2017 - 09.2018</small></p>
-                        </div>
-                        <div class="timeline-body">
-                            <p>Change Management Analyst</p>
-                            
-                        </div>
-                    </div>
-                </li>
-                 <li class="timeline-inverted">
-                  <div class="timeline-badge success"><i class="glyphicon glyphicon-credit-card"></i></div>
-                  <div class="timeline-panel">
-                    <div class="timeline-heading">
-                      <h4 class="timeline-title">Capgemini</h4>
-                      <p><small class="text-muted"><i class="glyphicon glyphicon-time"></i> 09.2018 - ...</small></p>
-                    </div>
-                    <div class="timeline-body">
-                      <p>Tool Analyst</p>
-                    </div>
-                  </div>
-                </li>
-            </ul>
-        </div>
-    </div>
-</section>
-<section>
-<div class="container">
-    <div class="row text-center">
-        <h1>Moje projekty:</h1>
-    </div>
-    <div class="row text-center">
-        <div class="col-md-6">
-            <div class="imageHolder">
-                <a href="https://michalzmu.github.io/Task-manager/">
-                <img class="buttonProject" src="img/buttonProject1.png" alt="project picture"></a>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="imageHolder">
-                <a href="https://michalzmu.github.io/CookieM-page/">
-                <img class="buttonProject" src="img/buttonProject2.1.png" alt="project picture"></a>    
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="imageHolder">
-                <a href="https://michalzmu.github.io/Mogo/">
-                <img class="buttonProject" src="img/mogo-page.jpg" alt="project picture"></a>    
-            </div>
-        </div>
-    </div>
-</div>
-</section> 
 <section class="white" id="skills">
-    <div class="container">
-        <div class="row text-center">
-        <h1>Moje umiejętności:</h1>
-        <p> Podstawowa wiedza z zakresu:</p>
-        <ol class="c text-center">
-            <li>Java</li>
-            <li>Hibernate</li>
-            <li>Spring</li>
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>JavaScript</li>
-            <li>jQuery</li>
-            <li>Bootstrapa</li>
-        </ol>  
+    <div class="container skills" data-aos="fade-left" data-aos-duration="1000">
+        <div class="row">
+            <div class="col text-center">
+                <h1>My skills</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <p class="text-center font-weight-bold">Intermediate</p>
+                <ul>
+                    <li>Angular 8</li>
+                    <li>TypeScript</li>
+                    <li>JavaScript ES6/ES2015</li>
+                    <li>HTML5, CSS3</li>
+                    <li>RxJS</li>
+                    <li>Bootstrapa</li>
+                </ul>
+            </div>
+            <div class="col">
+                <p class="text-center font-weight-bold">Beginner</p>
+                <ul>
+                    <li>NodeJS</li>
+                    <li>MongoDB</li>
+                    <li>Mongoose</li>
+                    <li>Express.js</li>
+                </ul>
+            </div>
         </div>
     </div>
 
 </section>
-<section>
-    <div class="container">
+<section id="contact">
+    <div class="container" data-aos="fade-right" data-aos-duration="1000">
         <div class="row text-center">
-        <h1>Kontakt:</h1>
-        <p>michal.zmuda.mail@gmail.com</p>
+            <div class="col d-flex flex-column align-items-center">
+                <h1>Contact:</h1>
+                <p class="d-flex align-items-center justify-content-center">
+                    <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-mailbox icon" fill="currentColor"
+                         xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd"
+                              d="M4 4a3 3 0 0 0-3 3v6h6V7a3 3 0 0 0-3-3zm0-1h8a4 4 0 0 1 4 4v6a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V7a4 4 0 0 1 4-4zm2.646 1A3.99 3.99 0 0 1 8 7v6h7V7a3 3 0 0 0-3-3H6.646z"/>
+                        <path fill-rule="evenodd"
+                              d="M11.793 8.5H9v-1h5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.354-.146l-.853-.854z"/>
+                        <path d="M5 7c0 .552-.448 0-1 0s-1 .552-1 0a1 1 0 0 1 2 0z"/>
+                    </svg>
+                    <a href="mailto:michal.zmuda.mail@gmail.com">michal.zmuda.mail@gmail.com</a>
+                </p>
+                <p><a href="https://www.linkedin.com/in/michal-zmuda/" target="_blank"><img
+                        style="height: 3em; margin: 0"
+                        src="img/LI-Logo.png" alt="linkedin-logo"></a></p>
+                <p><a href="https://github.com/MichalZmu" target="_blank"><img style="height: 3em; margin: 0"
+                                                                               src="img/GitHub_Logo.png"
+                                                                               alt="github-logo"></a></p>
+            </div>
 
         </div>
     </div>
 </section>
- 
-    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
-    <script type="text/javascript">
-        AOS.init({
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script type="text/javascript">
+    AOS.init({
         disable: 'mobile'
-        });
-    </script>
-  
-  
+    });
+</script>
 </body>
 </html>
